@@ -10,6 +10,15 @@ function increment() {
     countEl.innerText = count
 }
 
+function decrement() {
+    if(count>0){
+        count = count - 1
+        countEl.innerText = count
+    }
+
+}
+
+
 function save(){
     let countStr = count + " - "
     saveEl.innerText += countStr 
